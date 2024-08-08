@@ -104,7 +104,7 @@ Route::post('/logout', [LoginController::class, 'logout']);
 
 // ==========================================================
 // |||||||||||||||||| ROUTE UNTUK USERS DASHBOARD PROGRAM MAKAN GRATIS |||||||||||||||||||||||||||||||||||
-Route::resource('/404', ProgrammakangratisController::class);
+Route::resource('/', ProgrammakangratisController::class);
 // Route::resource('/dashboard', ProgrammakangratisController::class);
 // --------------------------------------------------------------------------------------------------------------------------------
 
