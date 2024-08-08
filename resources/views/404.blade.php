@@ -76,10 +76,10 @@
             <div class="buttons mb-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <button  class="btn button-custom btn-block p-2"><i class="fa fa-angle-left pull-left"></i> Go back</button>
+                        <button onclick="history.back();" class="btn button-custom btn-block p-2"><i class="fa fa-angle-left pull-left"></i> Go back</button>
                     </div>
                     <div class="col-md-6">
-                        <a href="/admindashboard" class="btn button-edit btn-block p-2">Go Home <i class="fa fa-angle-right pull-right"></i></a>
+                        <a href="/" class="btn button-edit btn-block p-2">Go Home <i class="fa fa-angle-right pull-right"></i></a>
                     </div>
                 </div>
             </div>
