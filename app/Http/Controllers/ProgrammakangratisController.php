@@ -12,8 +12,8 @@ class ProgrammakangratisController extends Controller
     public function index()
     {
         //
-        // return view('fe_dashboard.programmakangratis.index',[
-        return view('404',[
+        return view('fe_dashboard.programmakangratis.index',[
+        // return view('404',[
             'title' => 'Haiu Care Indonesia',
             // 'title_halaman' => 'Halaman Fundraising',
 
